@@ -1,3 +1,0 @@
-------  my repo --- clone -> folder (with his name)  ---> search (ssh key) -- (screen shots )
---------->  create repo on your account ======> front  ----------> git hub pages ===> add me as collaborator
-----------> userName :ayaatadel

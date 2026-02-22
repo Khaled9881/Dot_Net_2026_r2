@@ -1,0 +1,16 @@
+Creating pair of keys(Private-public)
+=====================================
+
+1- ssh-keygen -t ed25519 -C "alfshorouk@gmail.com"
+==save in the key in this path message==>
+2- (/c/Users/ascom/.ssh/id_ed25519)
+3-I entered no password
+confirmation of password
+________________________________________
+Displaying public key with command==>
+cat ~/.ssh/id_ed25519.pub
+the public key appeared will added to GitHub Through==>
+settings->SSH and GPG keys section ->New ssh Key ->
+Add the public key appeared on the terminal then save 
+then confirm your access through entering your Password
+

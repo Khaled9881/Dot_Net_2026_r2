@@ -16,7 +16,7 @@ merge master in about  (switch about --> pull master)
           same file (different  lines) =====>  not conflict
           different files =====>  not conflict
 
-=============================================================> Steps ======================>
+=============================================================> Steps  to merge with remote branches ======================>
 ------------merge master in about  (switch about --> pull master)
  switch about  : git switch feature/create-about
  git status (add , commit)
@@ -32,3 +32,36 @@ git pull master (conflict or not) (conflict or not)
 git pull about (conflict or not) (conflict or not)
      -- no conflict ==> git push origin master 
      --  conflict ==> solve conflict ==> git push origin master
+
+
+==========================>
+merge about master (master--> about)
+--->switch about (current)
+--> pull (incomming)
+
+=========================>
+iti :
+switch his branch 
+git status (add , commit)
+git push remote branch 
+git pull origin master  (conflict)
+git push origin remote branch
+------> complete code ------->
+
+
+
+*********************** Same Machine ********
+mrege (about with master)
+git status (add , commit)
+git switch about 
+git status (add , commit)
+git merge master (conflict)
+git status (add , commit)
+git push origin about (every thing in master are in about)
+
+============> switch master
+git status (add , commit)
+git switch master
+git status (add , commit)
+git merge about (conflict)
+git push origin master (every thing in  about  are in master)

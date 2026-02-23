@@ -16,3 +16,19 @@ merge master in about  (switch about --> pull master)
           same file (different  lines) =====>  not conflict
           different files =====>  not conflict
 
+=============================================================> Steps ======================>
+------------merge master in about  (switch about --> pull master)
+ switch about  : git switch feature/create-about
+ git status (add , commit)
+ git push origin feature/create-about
+git pull master (conflict or not) (conflict or not)
+     -- no conflict ==> git push origin feature/create-about 
+     --  conflict ==> solve conflict ==> git push origin feature/create-about 
+
+----------merge about in master  (switch master --> pull about)
+ switch about  : git switch master
+ git status (add , commit)
+ git push origin master
+git pull about (conflict or not) (conflict or not)
+     -- no conflict ==> git push origin master 
+     --  conflict ==> solve conflict ==> git push origin master

@@ -41,4 +41,11 @@ role (members)
 
 
 
-stash commands
+
+Stashing :  save not added code to switch between branches
+add stash : git stash
+show stash : git stash apply (save stash in queue)
+            git stash pop (remove stash in queue)
+clear stash : git stash clear
+show files that stashed : git stash show
+remove specific stash : git stash drop  stash_id(stash@{0})

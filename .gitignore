@@ -1,5 +1,6 @@
-./Assets/imgs/*.png
-./Assets/videos
+Assets/imgs/*.png
+Assets/videos
 *.pdf
 ./node_modules
 Assets/imgs/*.jpeg
+./test.txt

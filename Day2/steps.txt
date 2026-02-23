@@ -1,0 +1,7 @@
+------------------ Team ---------
+create repo 
+---------> branch master (main)-------
+handel all structure 
+-----> feature create branch
+navbar : finsh (push on my branch on remote)
+---------------> merge

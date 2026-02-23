@@ -23,3 +23,12 @@
 ==============> create branch from another branch 
  new branch --> take copy from parent branch 
  after that (every branch with be specific  with his new commits)
+
+
+
+
+fork   ||        clone
+   copy repo
+github       local machiene
+      update
+linstened         not listened
